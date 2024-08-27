@@ -1,11 +1,12 @@
 #include<stdio.h>
-int main(){
-    int n;
-    scanf("%d", &n);
+int main()
+{
+    int N;
+    scanf("%d", &N);
 
-    for (int i = 1; i <= n && n<=100000; i++)
-    {
-        printf("%d. I Want More Assignments\n", i);
+    for(int i = 1; i <= N && N <= 100000; i++){
+        printf("%d. I Want More Assignments\n",i);
     }
+
     return 0;
 }
